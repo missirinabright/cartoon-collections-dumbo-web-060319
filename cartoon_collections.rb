@@ -23,3 +23,4 @@ def find_the_cheese(meal)
   meal.find do |has_cheese|
   cheese_types.include?(has_cheese)
 end
+end
