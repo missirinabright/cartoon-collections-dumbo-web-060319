@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|call| call.capitalize + '!'}
 end
 
-short_words = ["puff", "go", "two"]
+short_words = i.length <=  4
 long_planeteer_calls(short_words)
 
 assorted_words = ["two", "go", "industrious", "bop"]
