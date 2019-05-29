@@ -19,6 +19,5 @@ end
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese(meal)
-  # the array below is here to help
-  
+  meal.include?(cheese_types)
 end
