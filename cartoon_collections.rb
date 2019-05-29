@@ -12,11 +12,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 
-long_planeteer_calls(short_words)
-
-assorted_words = ["two", "go", "industrious", "bop"]
-long_planeteer_calls(assorted_words)
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? {|call| call.length > 4}
   # Your code here
 end
 
